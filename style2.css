@@ -1,0 +1,598 @@
+
+form ion-item.item-datetime.item-interactive.ion-invalid.ion-touched,
+form ion-item.item-input.item-interactive.ion-invalid.ion-touched,
+form ion-item.item-select.item-interactive.ion-invalid.ion-touched {
+	border-bottom-color: #e20000
+}
+
+form ion-item.item-datetime.item-interactive.ion-invalid.ion-touched ion-label,
+form ion-item.item-input.item-interactive.ion-invalid.ion-touched ion-label,
+form ion-item.item-select.item-interactive.ion-invalid.ion-touched ion-label {
+	color: #e20000
+}
+
+ion-item.item-label::part(native),
+ion-item.view-more-btn::part(native) {
+	--padding-start: 0
+}
+
+ion-item.menu-links::part(native) {
+	--padding-start: inherit
+}
+
+.error-validation {
+	color: #e20000;
+	font-size: 14px;
+	--border-color: transparent;
+	--border-width: 0;
+	--padding-start: 0;
+	margin: 0 0 10px;
+	--min-height: 20px
+}
+
+.error-validation p {
+	margin: 0
+}
+
+.checkbox-error,
+.error-box {
+	--min-height: 20px
+}
+
+.checkbox-error p {
+	margin: 0 0 0 10px
+}
+
+.error-position {
+	--background: transparent;
+	position: absolute;
+	top: auto;
+	margin-top: -14px
+}
+
+.input-space {
+	margin-top: 10px!important
+}
+
+form .item-datetime,
+form .item-input,
+form .item-select {
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #002060;
+	margin-top: 0;
+	border-radius: 0;
+	--min-height: 40px;
+	background: transparent;
+	padding: 7px 0;
+	--padding-start: 10px;
+	--padding-end: 10px;
+	font-weight: 600
+}
+
+@media screen and (min-width:767px) {
+	form .item-datetime,
+	form .item-input,
+	form .item-select {
+		--min-height: 57px
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	form .item-datetime,
+	form .item-input,
+	form .item-select {
+		--min-height: 51px;
+		background: transparent;
+		padding: 7px 0 0;
+		--padding-start: 10px;
+		--padding-end: 0px
+	}
+}
+
+form .item-datetime,
+form .item-select {
+	--border-color: transparent;
+	--border-width: 0
+}
+
+form .item-checkbox-checked,
+form .item-datetime,
+form .item-label,
+form .item-select {
+	--background-hover: transparent;
+	--background-activated: transparent;
+	--background-focused: transparent
+}
+
+form .item-label-floating .sc-ion-input-ios-h,
+form .item-label-floating .sc-ion-input-md-h {
+	padding: 0;
+	margin: 0
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	form .item-label-floating .sc-ion-input-md-h {
+		margin-top: 5px
+	}
+}
+
+form .native-input.sc-ion-input-ios,
+form .native-input.sc-ion-input-md {
+	font-size: 18px;
+	color: #002060;
+	font-weight: 400;
+	padding: 0;
+	margin: 0
+}
+
+form .label-floating.sc-ion-label-ios-h,
+form .label-floating.sc-ion-label-md-h {
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	text-transform: normal;
+	padding: 0;
+	margin: 0
+}
+
+@media only screen and (min-width:320px) and (max-width:568px) {
+	form .label-floating.sc-ion-label-ios-h,
+	form .label-floating.sc-ion-label-md-h {
+		font-size: 16px
+	}
+}
+
+form .sc-ion-input-ios-h,
+form .sc-ion-input-md-h {
+	font-size: 18px;
+	color: #002060;
+	font-weight: 400;
+	padding: 0;
+	margin: 0
+}
+
+form ion-datetime,
+form ion-select {
+	font-size: 18px;
+	color: #002060;
+	font-weight: 400
+}
+
+.item-input {
+	border-bottom: 1px solid #002060
+}
+
+.item-label-floating .sc-ion-input-ios-h,
+.item-label-floating .sc-ion-input-md-h {
+	--padding-top: 0
+}
+
+.form-with-label .sc-ion-label-md-h {
+	margin: 0 0 5px!important
+}
+
+.label-floating .sc-ion-label-ios-h,
+.label-floating.sc-ion-label-md-h {
+	--padding-top: 10px;
+	--padding-bottom: 0px
+}
+
+.covid-button-fixed {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 95px;
+	z-index: 9999;
+	background: #fff;
+	display: block
+}
+
+@media screen and (min-width:576px) {
+	.covid-button-fixed {
+		display: none
+	}
+}
+
+.covid-button-fixed .register-btn {
+	--color: #fff;
+	--border-radius: 0 31px 0 0;
+	--box-shadow: 4px -5px 7px 2px rgba(0, 0, 0, 0.1607843137254902)
+}
+
+.covid-button-fixed .cancel-btn,
+.covid-button-fixed .register-btn {
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	height: 50px;
+	width: 50%;
+	margin: 45px 0 0
+}
+
+.covid-button-fixed .cancel-btn {
+	--color: #002060;
+	--border-radius: 31px 0 0 0;
+	--box-shadow: -5px -5px 7px 2px rgba(0, 0, 0, 0.10196078431372549)
+}
+
+.covid-button-desktop {
+	display: block
+}
+
+.covid-button-desktop .register-btn {
+	--color: #fff;
+	--border-radius: 31px;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.1607843137254902);
+	margin: 0 0 0 10px
+}
+
+.covid-button-desktop .cancel-btn,
+.covid-button-desktop .register-btn {
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	height: 50px;
+	width: 50%;
+	width: 40%
+}
+
+.covid-button-desktop .cancel-btn {
+	--color: #002060;
+	--border-radius: 0;
+	border-radius: 31px;
+	--box-shadow: none;
+	box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, .0392156862745098);
+	background: #fff;
+	margin: 0 10px 0 0
+}
+
+.covid-button-desktop .vac-btn {
+	--color: #002060;
+	--border-radius: 31px;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.0392156862745098);
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	height: 50px;
+	width: 50%;
+	width: 30%;
+	height: 45px;
+	font-weight: 500;
+	margin: 0 0 0 10px
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.covid-button-desktop .vac-btn {
+		width: 150px;
+		font-size: 14px
+	}
+}
+
+@media screen and (max-width:575px) {
+	.apptracker.covid-button-desktop {
+		display: block
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.apptracker.covid-button-desktop .register-btn {
+		margin: 0
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	.apptracker.covid-button-desktop .register-btn {
+		width: 50%
+	}
+}
+
+.profile-btns {
+	justify-content: flex-start;
+	display: flex
+}
+
+.profile-btns .register-btn {
+	--color: #fff;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.1607843137254902);
+	margin: 0 0 0 10px;
+	--background: #002060
+}
+
+.profile-btns .cancel-btn,
+.profile-btns .register-btn {
+	--border-radius: 31px;
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	height: 50px;
+	width: 50%;
+	width: 150px
+}
+
+.profile-btns .cancel-btn {
+	--color: #002060;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.0392156862745098);
+	margin: 0 10px 0 0
+}
+
+.alert-title {
+	color: #002060!important;
+	font-size: 17px!important
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0
+}
+
+.alert-tappable.sc-ion-alert-md {
+	height: 40px
+}
+
+.alert-radio-label.sc-ion-alert-md {
+	-webkit-padding-start: 20px;
+	padding-inline-start: 20px;
+	-webkit-padding-end: 20px;
+	padding-inline-end: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 13px
+}
+
+.alert-radio-icon.sc-ion-alert-md {
+	left: 15px
+}
+
+.vaccinate {
+	--color: #fff;
+	--border-radius: 31px;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.1607843137254902);
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	height: 50px;
+	width: 50%;
+	margin: 0 0 10px
+}
+
+td.mat-cell,
+td.mat-footer-cell,
+th.mat-header-cell {
+	padding: 0 15px
+}
+
+.verify-cancel-btn {
+	--color: #002060;
+	--border-radius: 31px;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.0392156862745098);
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	height: 50px;
+	width: 50%;
+	width: 150px;
+	margin: 15px 0 10px;
+	--background: #fff
+}
+
+.apply-filter-btn {
+	--color: #fff;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.1607843137254902);
+	--background: #002060;
+	padding-left: 5px
+}
+
+.apply-filter-btn,
+.clear-filter-btn {
+	--border-radius: 31px;
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+	height: 50px;
+	width: 50%;
+	font-size: 14px;
+	width: 120px;
+	margin: 15px 0 10px
+}
+
+.clear-filter-btn {
+	--color: #002060;
+	--box-shadow: 1px 2px 8px 7px rgba(0, 0, 0, 0.0392156862745098);
+	--background: #fff;
+	padding-right: 5px
+}
+
+.benificiary-checkbox {
+	font-size: 14px!important;
+	line-height: 18px;
+	color: #002060!important
+}
+
+.benificiary-checkbox ion-checkbox {
+	margin-right: 5px
+}
+
+.benificiary-checkbox:hover,
+.view-more {
+	color: #002060
+}
+
+.view-more {
+	--background: transparent;
+	--box-shadow: none;
+	float: right;
+	height: 20px;
+	font-size: 13px;
+	text-transform: uppercase
+}
+
+.no-ellipse-checkbox-label {
+	overflow: visible;
+	text-overflow: unset;
+	white-space: unset
+}
+
+.concen-btn {
+	float: none;
+	text-decoration: underline;
+	font-weight: 700;
+	cursor: pointer
+}
+
+.item-has-focus.label-floating.sc-ion-label-md-h,
+.item-has-focus .label-floating.sc-ion-label-md-h,
+.item-has-placeholder.label-floating.sc-ion-label-md-h,
+.item-has-placeholder .label-floating.sc-ion-label-md-h,
+.item-has-value.label-floating.sc-ion-label-md-h,
+.item-has-value .label-floating.sc-ion-label-md-h {
+	transform: translateY(50%) scale(.95)
+}
+
+.ion-color-primary {
+	--ion-color-base: #002060!important
+}
+
+ion-item::part(native) {
+	--padding-end: 0
+}
+
+.register-wrap .register-number {
+	position: relative
+}
+
+.register-wrap .register-number p {
+	color: #002060;
+	margin: 10px 0 0;
+	font-size: 14px;
+	font-weight: 700
+}
+
+.register-wrap .col-padding {
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+.register-wrap .register-header h3 {
+	font-size: 22px;
+	color: #002060;
+	margin-bottom: 10px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 0
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.register-wrap .register-header h3 {
+		margin-top: 35px;
+		font-size: 18px;
+		margin-top: 0
+	}
+}
+
+.register-wrap .register-box {
+	background-color: #fff;
+	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 90px;
+	padding: 0
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.register-wrap .register-box {
+		padding: 0;
+		margin-top: 40px;
+		box-shadow: none;
+		border-radius: 0
+	}
+}
+
+.register-wrap .welcome-top-section {
+	padding: 15px 20px
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.register-wrap .welcome-top-section {
+		padding: 0
+	}
+}
+
+.info {
+	text-align: center;
+	margin: 5px 7px;
+	color: #333;
+	font-size: 14px;
+	font-weight: 400
+}
+
+.register-member-btn {
+	border: 0;
+	--background: #002060;
+	--border-radius: 5px;
+	color: #fff
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+	.register-member-btn {
+		margin-bottom: 10px
+	}
+}
+
+.padding-0 {
+	padding: 0
+}
+
+.blue-box {
+	background-color: #95e5d8;
+	border-top: 1px solid #707070;
+	padding: 20px
+}
+
+.blue-box .blue-box-cnt h5 {
+	font-size: 15px;
+	font-weight: 700;
+	text-align: left;
+	margin-top: 0;
+	color: #2e2e2e
+}
+
+.blue-box .blue-box-cnt h5 .icon-info-large {
+	font-size: 18px;
+	vertical-align: bottom
+}
+
+.blue-box .blue-box-cnt ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.blue-box .blue-box-cnt ul li {
+	font-size: 14px;
+	text-align: left;
+	font-weight: 400;
+	margin: 0 0 10px;
+	line-height: 20px;
+	color: #2e2e2e
+}
+
+.sub_ul {
+	padding-left: 30px!important
+}
+
+.sub_ul li {
+	list-style-type: lower-roman;
+	line-height: 1!important
+}
